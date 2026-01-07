@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="calculator">
+        <div class="display" id="display"></div>
+            <div class="buttons">
+                <button onclick="cancel()" class="value">x</button>
+                <button onclick="clearDisplay()" class="value">C</button>
+                <button onclick="get('%')" class="value">%</button>
+                <button onclick="get('/')" class="operator">/</button>
+
+                <button onclick="get('7')" class="numbers">7</button>
+                <button onclick="get('8')" class="numbers">8</button>
+                <button onclick="get('9')" class="numbers">9</button>
+                <button onclick="get('*')" class="operator">*</button>
+
+                <button onclick="get('4')" class="numbers">4</button>
+                <button onclick="get('5')" class="numbers">5</button>
+                <button onclick="get('6')" class="numbers">6</button>
+                <button onclick="get('-')" class="operator">-</button>
+
+                <button onclick="get('1')" class="numbers">1</button>
+                <button onclick="get('2')" class="numbers">2</button>
+                <button onclick="get('3')" class="numbers">3</button>
+                <button onclick="get('+')" class="operator">+</button>
+
+                <button onclick="get('0')" class="numbers">0</button>
+                <button onclick="get('.')" class="operator">.</button>
+                <button onclick="equal()" class="operator" >=</button>
+            </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
